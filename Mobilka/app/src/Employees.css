@@ -1,0 +1,14 @@
+.div-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    margin: 1%;
+    padding: 10px;
+    background-color: lightgreen;
+    min-width: 300px;
+    max-width: max-content;
+    min-height: 200px;
+    max-height: max-content;
+    
+}

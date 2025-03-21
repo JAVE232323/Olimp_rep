@@ -23,6 +23,10 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+
+            mainFrame.Navigate(new Org());
+            
+            
         }
     }
 }

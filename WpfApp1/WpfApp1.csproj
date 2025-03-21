@@ -106,12 +106,31 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="FrameApp.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Org.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OrgStructure\Org.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Cabinets.cs" />
+    <Compile Include="Models\Divisions.cs" />
+    <Compile Include="Models\Employees.cs" />
+    <Compile Include="Models\Positions.cs" />
+    <Compile Include="Org.xaml.cs">
+      <DependentUpon>Org.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrgStructure\Org.xaml.cs">
+      <DependentUpon>Org.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -137,6 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\CommunityToolkit.Mvvm.8.4.0\build\CommunityToolkit.Mvvm.targets" Condition="Exists('packages\CommunityToolkit.Mvvm.8.4.0\build\CommunityToolkit.Mvvm.targets')" />

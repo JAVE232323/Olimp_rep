@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 50;
+    background-color: antiquewhite;
+    grid-column: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    margin-left: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-text{
+    margin-left: 100px;
+    padding: 50;
+    background-color: lightslategray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.div-employees{
+   margin-left: 75px; 
+   max-width: 1920px;
 }
 
-.App-link {
-  color: #61dafb;
+.div-emp-count{        
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.div-calendar-news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.div-calendar{
+    width: 350px;
+    height: 500px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+
+
+.div-news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: baseline;
+    
+    min-width: 300px;
+    max-width: max-content;
+
+}
+
+.div-events{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start ;
+
+    margin: 75px;
 }

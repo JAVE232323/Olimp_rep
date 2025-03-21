@@ -1,0 +1,8 @@
+.div-events-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom:10px;
+    padding: 15px;
+    background-color: lightgreen;
+}

@@ -1,0 +1,43 @@
+.div-calendar-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.div-month-year{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    background-color: lightgreen;
+}
+
+.div-week-days{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-month-numbers{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.p-one-number{
+    margin:20px
+}
+
+.p-days{
+    margin: 20px;
+}
+
+p{
+    margin: 15px;    
+}
+
